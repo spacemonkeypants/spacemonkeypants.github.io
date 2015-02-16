@@ -10,15 +10,17 @@ paginate:         1
 baseurl:          /
 author:
   name:           Spacemonkeypants
-  url:            https://twitter.com/spacemonkeypants
+  url:            https://twitter.com/spacmonkeypants
   email:          spacemonkeypants@buggyasfuck.com
 
 # Custom vars
 version:          1.0.0
-github:
-  repo:           https://github.com/spacemonkeypants/spacemonkeypants.github.io
+github:           spacemonkeypants
+  #repo:           https://github.com/spacemonkeypants/spacemonkeypants.github.io
 
 pages_list:
   About: '/about'
   Archive: '/archive'
   Feed: '/atom.xml'
+
+header_image: https://lh4.googleusercontent.com/MLvgM9kRx0h6O8dLANXTgLCLfWrPrvSRAvvMTL4ymMU=w500-h359
