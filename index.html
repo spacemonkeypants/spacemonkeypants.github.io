@@ -2,10 +2,7 @@
 layout: default
 title: Home
 ---
-<div class="my_header">
-  <img src="https://lh3.googleusercontent.com/-T7051nJAtvg/VOIclFbX37I/AAAAAAAAAKg/_YX9yPM-jv8/w500-h359-no/john-houbolt-opt.jpg" />
 
-</div>
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
@@ -14,6 +11,10 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
+
+    <div class="my_header">
+      <img src="https://lh3.googleusercontent.com/-T7051nJAtvg/VOIclFbX37I/AAAAAAAAAKg/_YX9yPM-jv8/w500-h359-no/john-houbolt-opt.jpg" />
+    </div>
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
