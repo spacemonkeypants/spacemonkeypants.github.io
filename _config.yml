@@ -3,17 +3,17 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            SpaceMonkeyPants
+tagline:          It Aint Rocket Science
+url:              http://spacemonkeypants.github.io
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Spacemonkeypants
+  url:            https://twitter.com/spacemonkeypants
+  email:          spacemonkeypants@buggyasfuck.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/spacemonkeypants/spacemonkeypants.github.io
